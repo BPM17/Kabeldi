@@ -20,7 +20,7 @@ The website will be composed by several views:
     - Contact form
 - Privacy Notice
 
-#### Context:
+### Context:
 Each page will be composed by:
 - Header: Menu with all pages will contain next links.
     - Home
@@ -33,7 +33,7 @@ Each page will be composed by:
 - Body: Content of the page.
 - Footer: Contain contact information.
 
-#### Views:
+### Views:
 - Menu
 - Footer
 - Home
@@ -44,5 +44,5 @@ Each page will be composed by:
 - Privacy Notice
 - Merchandise
 
-#### Todo
+### Todo
 - Investigate about how do pop ups works using Django.
