@@ -1,9 +1,12 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
+
+
 # Create your views here.
 def index(request):
-    return HttpResponse("This is home page")
+    # return HttpResponse("This is home page \n\n\nFirst question %s.")
+    return render(request, 'home.html')
 
 def Menu(request):
     return HttpResponse("This is menu view")
