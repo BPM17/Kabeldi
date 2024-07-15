@@ -6,10 +6,10 @@ from django.http import HttpResponse
 # Create your views here.
 def index(request):
     # return HttpResponse("This is home page \n\n\nFirst question %s.")
-    return render(request, 'home.html')
+    return render(request, 'index.html')
 
 def Menu(request):
-    return HttpResponse("This is menu view")
+    return render(request, 'header.html')
 
 def Footer(request):
     return HttpResponse("This is footer view")
