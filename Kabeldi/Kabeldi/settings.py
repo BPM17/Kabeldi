@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'kabeldi_app'
 ]
 
 MIDDLEWARE = [
@@ -56,7 +57,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [os.path.join(BASE_DIR, r"kabeldi_app\templates"),
-                 os.path.join(BASE_DIR, r"kabeldi_app\static")],
+                 ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

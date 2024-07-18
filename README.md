@@ -44,5 +44,12 @@ Each page will be composed by:
 - Privacy Notice
 - Merchandise
 
+### Palette:
+- 0d1b2a
+- 1b263b
+- 415a77
+- 778da9
+- e0e1dd
+
 ### Todo
 - Investigate about how do pop ups works using Django.
