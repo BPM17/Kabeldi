@@ -1,0 +1,97 @@
+:root{
+    --letra:#e0e1dd;
+    --background:#778da9;
+    --header:#415a77;
+    --secundario:#1b263b;
+    --terciario:#0d1b2a;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    /* esto es para automatizar lo del tamaño de imagenes sin necesidad de 
+                            hacer calculos para el padding y el margin*/
+    scroll-snap-type: y mandatory;
+}
+
+
+/*Scroll snap*/
+
+.servicios .navegacion-pr .formulario {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/*esta es la función de lo del padding y el margin automatico*/
+
+body {
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 400;
+    background-image: linear-gradient(to top, #b0c0bc 0%, var(--blanco) 100%);
+}
+
+h1 {
+    font-size: 3.8rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.sectionMenu{
+    width: 100%;
+}
+
+.menu{
+    padding: 0 5rem;
+    display: flex;
+    justify-content: right;
+    height: 8rem;
+    width: 100%;
+    background-color: var(--header);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu a{
+    padding: 3rem 2rem 0rem 2rem;
+    text-decoration: none;
+    color: var(--letra);
+    max-width: 100%;
+    max-height: 100%; 
+}
+
+.menuImg{
+    width: 10%;
+    display: flex;
+    justify-content: left;
+}
+
+.links{
+    display: flex;
+    justify-content: end;
+    width: 90%;
+}
+
+.menu a:hover{
+    color: var(--secundario);
+    font-weight: 700;
+    background-color: var(--background);
+    border-radius: 10%;
+}
