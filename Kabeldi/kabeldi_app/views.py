@@ -30,16 +30,3 @@ def PrivacyNotice(request):
 
 def Merchandise(request):
     return render(request, 'merchandise.html')
-
-def ProcessString(request):
-    request = str(request)
-    request = request.split("/")
-    request = request[1].replace("'>", "")
-    request = "/" + request
-    print("The request is", request)
-    return request
-
-def DetPage(request):
-    request = ProcessString(request)
-    Menu(request, )
-
