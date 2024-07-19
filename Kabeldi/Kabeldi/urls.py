@@ -20,9 +20,9 @@ from kabeldi_app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", views.index, name="index"),
-    path("menu", views.Menu, name="menu"),
+    path("header", views.Menu, name="menu"),
     path("footer", views.Footer, name="footer"),
+    path("", views.index, name="index"),
     path("development", views.Development, name="development"),
     path("infrastructure", views.Infrastructure, name="infrastructure"),
     path("technicalSupport", views.TechnicalSupport, name="technicalSupport"),

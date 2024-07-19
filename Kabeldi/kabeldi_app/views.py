@@ -1,33 +1,45 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-
+from .models import ContactForm
 
 
 # Create your views here.
-def index(request):
-    # return HttpResponse("This is home page \n\n\nFirst question %s.")
-    return render(request, 'index.html')
-
 def Menu(request):
     return render(request, 'header.html')
 
 def Footer(request):
-    return HttpResponse("This is footer view")
+    return render(request, 'footer.html')
+
+def index(request):
+    return render(request, 'index.html')
 
 def Development(request):
-    return HttpResponse("This is development page")
+    return render(request, 'development.html')
 
 def Infrastructure(request):
-    return HttpResponse("This is infrastructure page")
+    return render(request, 'infrastructure.html')
 
 def TechnicalSupport(request):
-    return HttpResponse("This is technical Support page")
+    return render(request, 'technicalSupport.html')
 
 def Contact(request):
-    return HttpResponse("This is contact page")
+    return render(request, 'contact.html')
 
 def PrivacyNotice(request):
-    return HttpResponse("This is privacy note page")
+    return render(request, 'privacyNotice.html')
 
 def Merchandise(request):
-    return HttpResponse("This is merchandise page")
+    return render(request, 'merchandise.html')
+
+def ProcessString(request):
+    request = str(request)
+    request = request.split("/")
+    request = request[1].replace("'>", "")
+    request = "/" + request
+    print("The request is", request)
+    return request
+
+def DetPage(request):
+    request = ProcessString(request)
+    Menu(request, )
+
