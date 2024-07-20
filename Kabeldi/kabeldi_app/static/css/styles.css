@@ -74,6 +74,12 @@ a{
     text-decoration: none;
 }
 
+.links{
+    display: flex;
+    justify-content: end;
+    width: 90%;
+}
+
 .menu a{
     padding: 3rem 2rem 0rem 2rem;
     color: var(--letra);
@@ -85,12 +91,6 @@ a{
     width: 10%;
     display: flex;
     justify-content: left;
-}
-
-.links{
-    display: flex;
-    justify-content: end;
-    width: 90%;
 }
 
 .menu a:hover{
