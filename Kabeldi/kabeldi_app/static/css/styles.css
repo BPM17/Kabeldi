@@ -64,6 +64,7 @@ h3 {
 
 .section{
     width: 100%;
+    position:fixed;
 }
 
 .menu{
@@ -197,27 +198,25 @@ a{
 
 .slider-frame{
     width: 100%;
-    margin: 0 auto;
+    height: 100vh;
+    margin: 0;
     overflow: hidden;
 }
 
 .slider-frame ul{
     margin: 0;
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0;
     width: 400%;
-    animation: slide 20s infinite alternate ease-in-out;
-}
-
-.slider-frame il{
+    animation: slide 16s infinite alternate ease-in-out;
     list-style: none;
-    width: 100%;
 }
 
 .slider-frame img{
     width: 100%;
     height: 100%;
- 
 }
 
 @keyframes slide {
