@@ -45,11 +45,12 @@ Each page will be composed by:
 - Merchandise
 
 ### Palette:
-- 0d1b2a
-- 1b263b
-- 415a77
-- 778da9
-- e0e1dd
+- --letra:#e0e1dd;
+- --background:#778da9;
+- --header:#415a77;
+- --secundario:#1b263b;
+- --terciario:#0d1b2a;
+- --cuarto:#a6b4c7;
 
 ### Todo
 - Investigate about how do pop ups works using Django.
