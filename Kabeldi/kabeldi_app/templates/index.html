@@ -14,8 +14,13 @@
     <section class="section">
         {% include 'header.html' %}
     </section>
-    <div>
-        <!-- slider -->
+    <div class="slider-frame">
+        <ul>
+            <li><img src="{% static 'img/infrastructure.jpg' %}" alt=""></li>
+            <li><img src="{% static 'img/programing.jpg' %}" alt=""></li>
+            <li><img src="{% static 'img/infrastructure.jpg' %}" alt=""></li>
+            <li><img src="{% static 'img/programing.jpg' %}" alt=""></li>
+        </ul>
     </div>
     <div class="hero">
         <h2>Our services</h2>
@@ -31,7 +36,7 @@
         </div>
     </div>
     </section>
-    <section class="section">
+    <section class="section-footer">
         {% include 'footer.html' %}
     </section>
 </body>
