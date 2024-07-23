@@ -232,3 +232,41 @@ a{
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}
 }
+
+.container{
+    width: 90%;
+    margin: 2rem auto;
+    background-color: var(--header);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+
+form{
+    color: var(--letra);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form fieldset{
+    border:  none;
+}
+
+form textarea{
+    border: none;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.campo{
+    margin-bottom: 1rem;
+}
+
+.input{
+    width: 100%;
+    border-radius: 1rem;
+    font-weight: 700;
+    border: none;
+    padding: 1rem;
+}
