@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from .models import ContactForm
-
+from .forms import Client
 
 # Create your views here.
 def Menu(request):
@@ -23,7 +23,8 @@ def TechnicalSupport(request):
     return render(request, 'technicalSupport.html')
 
 def Contact(request):
-    return render(request, 'contact.html')
+    form = Client()
+    return render(request, 'contact.html', {"form":form})
 
 def PrivacyNotice(request):
     return render(request, 'privacyNotice.html')
