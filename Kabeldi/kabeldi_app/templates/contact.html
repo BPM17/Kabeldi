@@ -15,27 +15,14 @@
         {% include 'header.html' %}
     </section>
     <section class="container">
-        <div>
-            <form action="">
-                <div class="campo">
-                    <label for="">Nombre:</label>
-                    <input class="input" type="text" name="nombre" id="name" placeholder="Ingresa tu nombre">
-                </div>
-                <div class="campo">
-                    <label for="">Telefono:</label>
-                    <input class="input" type="tel" name="telefono" id="tel" placeholder="Ingresa tu telefono">
-                </div>
-                <div class="campo">
-                    <label for="">Correo:</label>
-                    <input class="input" type="email" name="Correo" id="mail" placeholder="Ingresa tu correo">
-                </div>
-                <div class="campo">
-                    <label for="">Description:</label>
-                    <textarea name="mensaje" placeholder="¿En que estas interesado?" id="descripcion" cols="30"
-                        rows="10"></textarea>
-                </div>
-            </form>
-        </div>
+        <form action="" method="post" class="form">
+            <h2>Ingresa tus datos y nos pondremos en contacto contigo</h2>
+            {% csrf_token %}
+            {{form.as_p}}
+            <div class="containerButton">
+                <button>Enviar</button>
+            </div>
+        </form>
     </section>
     <section>
         {% include 'footer.html' %}
