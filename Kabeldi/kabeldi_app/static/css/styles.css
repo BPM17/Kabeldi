@@ -284,3 +284,39 @@ form{
     border: none;
     margin: auto;
 }
+
+.technologies{
+    margin: 5rem auto;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.technology{
+    background-color: var(--header);
+    border-radius: 3rem;
+    display: flex;
+    flex-direction:column;
+    padding: 2rem;
+}
+
+.technology img{
+    width: 100%;
+}
+
+.technology p{
+    justify-content: center;
+}
+
+.slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25rem;
+    margin: 0;
+    background-color: var(--terciario);
+    color: var(--letra);
+}
