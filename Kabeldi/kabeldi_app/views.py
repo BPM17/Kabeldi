@@ -19,9 +19,6 @@ def Development(request):
 def Infrastructure(request):
     return render(request, 'infrastructure.html')
 
-def TechnicalSupport(request):
-    return render(request, 'technicalSupport.html')
-
 def Contact(request):
     form = Client()
     return render(request, 'contact.html', {"form":form})

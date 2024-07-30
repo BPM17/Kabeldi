@@ -25,7 +25,6 @@ urlpatterns = [
     path("", views.index, name="index"),
     path("development", views.Development, name="development"),
     path("infrastructure", views.Infrastructure, name="infrastructure"),
-    path("technicalSupport", views.TechnicalSupport, name="technicalSupport"),
     path("contact", views.Contact, name="contact"),
     path("privacyNotice", views.PrivacyNotice, name="privacyNotice"),
     path("merchandise", views.Merchandise, name="merchandise"),
