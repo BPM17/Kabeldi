@@ -334,3 +334,15 @@ form{
     border-radius: 1rem;
     padding: 1rem;
 }
+
+.notice{
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 100rem;
+    color: var(--terciario);
+}
+
+.notice p{
+    size: 12px;
+}
