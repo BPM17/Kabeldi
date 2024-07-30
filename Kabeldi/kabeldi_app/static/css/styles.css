@@ -234,7 +234,7 @@ a{
 }
 
 .container{
-    width: 60%;
+    width: 50%;
     height: 40rem;
     margin: 10% auto;
     display: flex;
@@ -246,7 +246,7 @@ a{
 
 
 form{
-    width: 80%;
+    width: 70%;
     height: 30rem;
     color: var(--letra);
 }
@@ -312,6 +312,7 @@ form{
 
 .slogan{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -319,4 +320,17 @@ form{
     margin: 0;
     background-color: var(--terciario);
     color: var(--letra);
+}
+
+.slogan a{
+    text-decoration: none;
+    width: 15rem;
+    height: 4rem;
+    margin-top: 4rem;
+    color: var(--terciario);
+    background-color: var(--cuarto);
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 1rem;
+    padding: 1rem;
 }
