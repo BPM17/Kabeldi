@@ -67,6 +67,14 @@ h3 {
     position:fixed;
 }
 
+.bodySection{
+    min-height: 20rem;
+    max-width: 90%;
+    margin: auto;
+    border-radius: 1rem;
+    background-color: var(--header);
+}
+
 .menu{
     padding: 0 5rem;
     display: flex;
@@ -181,7 +189,6 @@ a{
     justify-content: space-evenly;
     text-align: center;
 }
-
 
 .service{
     width: 25rem;
