@@ -7,6 +7,10 @@
     --cuarto:#a6b4c7;
 }
 
+li{
+    list-style-type: none;
+}
+
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -62,6 +66,10 @@ h3 {
     padding: 0;
 }
 
+label{
+    color: var(--letra);
+}
+
 .section{
     width: 100%;
     position:fixed;
@@ -75,15 +83,94 @@ h3 {
     background-color: var(--header);
 }
 
-.menu{
-    padding: 0 5rem;
-    display: flex;
-    justify-content: right;
+.containerMenu{
+    justify-content: space-between;
     height: 8rem;
     width: 100%;
+    padding: 0 5rem;
+    display: flex;
     background-color: var(--header);
     text-decoration: none;
     font-weight: 500;
+}
+
+@media(max-width:1000px){
+    .menu{
+        display: none;
+    }
+
+    .respmenu a {
+        color: inherit;
+        text-decoration: none;
+        display: block;
+        padding: 20px;
+        max-width: 200px;
+        background: var(--background);
+    }
+    
+    .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+      position: absolute;
+      box-sizing: border-box;
+      margin: 1rem;
+      padding: 0;
+      right: 0;
+      top: 0;
+      width: 2rem;
+      height: 2rem;
+    }
+    
+    .respmenu .fa-bars, .respmenu .fa-times {
+      font-size: 48px;
+      pointer-events: none;
+    }
+    
+    .respmenu input[type="checkbox"] {
+      opacity: 0;
+    }
+    
+    .respmenu {
+      color: white;
+      position: relative;
+      background: var(--header);
+      min-height: 48px;
+      max-width: 200px;
+    }
+    
+    .respmenu nav {
+      display: none;
+    }
+    
+    .respmenu input:checked ~ nav {
+      display: block;
+    }
+    
+    .respmenu input:checked ~ .fa-bars {
+      display: none;
+    }
+    
+    .respmenu input:not(:checked) ~ .fa-times {
+      display: none;
+    }
+
+    .services{
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            text-align: center;
+    }
+
+    .service{
+        margin: 2rem 0;
+    }
+
+}
+
+@media(min-width:1001px){
+    .respmenu{
+        display: none;
+    }
 }
 
 a{
@@ -96,11 +183,17 @@ a{
     width: 90%;
 }
 
+.menu{
+    margin: 1rem 0 1rem 0;
+    padding: 2rem 0;
+}
+
 .menu a{
     padding: 3rem 2rem 0rem 2rem;
     color: var(--letra);
     max-width: 100%;
     max-height: 100%; 
+    text-decoration: none;
 }
 
 .menuImg{
@@ -110,9 +203,9 @@ a{
 }
 
 .menu a:hover{
+    background-color: var(--background);
     color: var(--secundario);
     font-weight: 700;
-    background-color: var(--background);
     border-radius: 10%;
 }
 
@@ -205,7 +298,6 @@ a{
 
 .slider-frame{
     width: 100%;
-    height: 100vh;
     margin: 0;
     overflow: hidden;
 }
@@ -294,11 +386,10 @@ form{
 
 .technologies{
     margin: 5rem auto;
-    width: 60%;
+    width: 90%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
 }
 
 .technology{

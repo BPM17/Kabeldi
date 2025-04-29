@@ -1,10 +1,25 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 {% load static %}
 
-<div class="menu">
+<div class="containerMenu">
     <div class="menuImg">
         <img src="{% static 'img/logo.jpg' %}" alt="">
     </div>
-    <div class="links">
+    <div class="respmenu">
+        <input type="checkbox"/>
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/development">Development</a></li>
+                <li><a href="/infrastructure">Infrastructure</a></li>
+                <li><a href="/merchandise">Merchandise</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="menu">
         <a href="/">Home</a>
         <a href="/development">Development</a>
         <a href="/infrastructure">Infrastructure</a>
