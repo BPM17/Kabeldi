@@ -20,8 +20,14 @@ def Infrastructure(request):
     return render(request, 'infrastructure.html')
 
 def Contact(request):
-    form = Client()
-    return render(request, 'contact.html', {"form":form})
+    if request.method == 'POST':
+        form = Client(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('contact')
+    else:
+        form = Client()
+    return render(request, 'contact.html', {'form':form})
 
 def PrivacyNotice(request):
     return render(request, 'privacyNotice.html')
