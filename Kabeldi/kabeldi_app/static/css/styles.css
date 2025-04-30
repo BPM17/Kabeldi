@@ -70,6 +70,16 @@ label{
     color: var(--letra);
 }
 
+.form{
+    margin: 1rem 5rem;
+    width: 100%;
+}
+
+.formControl{
+    margin: 5px 0;
+    width: 100%;
+}
+
 .section{
     width: 100%;
     position:fixed;
@@ -95,6 +105,17 @@ label{
 }
 
 @media(max-width:1000px){
+    .container{
+        width: 90%;
+        height: 50rem;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        background-color: var(--header);
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+
     .menu{
         display: none;
     }
@@ -331,7 +352,7 @@ a{
 
 .container{
     width: 50%;
-    height: 40rem;
+    height: 45rem;
     margin: 10% auto;
     display: flex;
     justify-content: center;

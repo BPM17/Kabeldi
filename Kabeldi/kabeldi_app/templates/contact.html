@@ -18,7 +18,14 @@
         <form action="" method="POST" class="form">
             <h2>Introduce your info and we will contact you</h2>
             {% csrf_token %}
-            {{form.as_p}}
+            <br><label for="">Name</label></br>
+            {{ form.name }}
+            <br><label for="">E-mail</label></br>
+            {{ form.email }}
+            <br><label for="">Cellphone</label></br>
+            {{ form.cellphone }}
+            <br><label for="">Description</label></br>
+            {{ form.description }}
             <div class="containerButton">
                 <button type="submit">Submit</button>
             </div>
