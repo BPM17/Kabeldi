@@ -1,0 +1,81 @@
+*   [33m4d312c5[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge pull request #18 from BPM17/developing
+[31m|[m[32m\[m  
+[31m|[m * [33md37c86d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdeveloping[m[33m, [m[1;31morigin/developing[m[33m)[m Form is completly functional, it creates a register after cliking the submit button, responsive changes in development page
+* [32m|[m [33m8335720[m Merge pull request #17 from BPM17/developing
+[33m|[m[32m\[m[32m|[m 
+[33m|[m * [33m7564064[m Logo Kabeldi added, changes on CSS and respoonsive
+* [34m|[m [33m03ff6a8[m Merge pull request #16 from BPM17/developing
+[35m|[m[34m\[m[34m|[m 
+[35m|[m * [33md9144dc[m Django upgrade
+* [36m|[m [33m0bbf5d2[m Merge pull request #15 from BPM17/developing
+[1;31m|[m[36m\[m[36m|[m 
+[1;31m|[m * [33ma5eba78[m Responsive changes
+* [1;32m|[m [33m7c7afb4[m Merge pull request #14 from BPM17/developing
+[1;33m|[m[1;32m\[m[1;32m|[m 
+[1;33m|[m * [33m2539244[m requirements file updated
+* [1;34m|[m [33m369cae2[m Merge pull request #13 from BPM17/developing
+[1;35m|[m[1;34m\[m[1;34m|[m 
+[1;35m|[m * [33me146fda[m requirements file added
+* [1;36m|[m [33mf299590[m Merge pull request #12 from BPM17/developing
+[31m|[m[1;36m\[m[1;36m|[m 
+[31m|[m * [33m0ac199f[m to add it to a free hosting
+* [32m|[m [33mdf28234[m Merge pull request #11 from BPM17/developing
+[33m|[m[32m\[m[32m|[m 
+* [32m|[m   [33m1c68bbf[m Merge pull request #10 from BPM17/developing
+[35m|[m[36m\[m [32m\[m  
+* [36m\[m [32m\[m   [33m4ed5ef1[m Merge pull request #9 from BPM17/developing
+[1;31m|[m[1;32m\[m [36m\[m [32m\[m  
+* [1;32m\[m [36m\[m [32m\[m   [33md444400[m Merge pull request #8 from BPM17/developing
+[1;33m|[m[1;34m\[m [1;32m\[m [36m\[m [32m\[m  
+* [1;34m\[m [1;32m\[m [36m\[m [32m\[m   [33m729db5f[m Merge pull request #7 from BPM17/developing
+[1;35m|[m[1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [32m\[m  
+* [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [32m|[m [33m77a6c14[m Update README.md
+* [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [32m|[m   [33m0e60ba7[m Merge pull request #6 from BPM17/developing
+[31m|[m[32m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [32m\[m  
+* [32m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [32m\[m   [33md26c40b[m Merge pull request #5 from BPM17/developing
+[33m|[m[34m\[m [32m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [32m\[m  
+* [34m\[m [32m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [32m\[m   [33mdc5b40a[m Merge pull request #4 from BPM17/developing
+[35m|[m[36m\[m [34m\[m [32m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [32m\[m  
+* [36m\[m [34m\[m [32m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [32m\[m   [33me28c78e[m Merge pull request #3 from BPM17/developing
+[1;31m|[m[1;32m\[m [36m\[m [34m\[m [32m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [32m\[m  
+* [1;32m\[m [36m\[m [34m\[m [32m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [32m\[m   [33m8f5242f[m Merge pull request #2 from BPM17/developing
+[1;33m|[m[1;34m\[m [1;32m\[m [36m\[m [34m\[m [32m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [32m\[m  
+* [1;34m\[m [1;32m\[m [36m\[m [34m\[m [32m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [32m\[m   [33mc24d93b[m Merge pull request #1 from BPM17/developing
+[1;35m|[m[1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [34m\[m [32m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [32m\[m  
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [32m|[m * [33m45f5269[m[33m ([m[1;32mchangeslider[m[33m)[m Changes to invoque img is not working
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [32m|[m[32m/[m  
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m * [33m8a7939e[m Privacy notice web page has been created and css class applied, changes on header
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m[36m/[m  
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;32m|[m * [33m498d3cf[m Infrastructure web page is almost done working on details
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;32m|[m[1;32m/[m  
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m * [33m282d7d4[m Development web page almost done
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m[1;34m/[m  
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [34m|[m [32m|[m [1;36m|[m * [33m54501ad[m Contact form is almost done, next step work in back end
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [34m|[m [32m|[m [1;36m|[m[1;36m/[m  
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [34m|[m [32m|[m * [33m97f80fe[m Form almost completed, button missing
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [34m|[m [32m|[m[32m/[m  
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [34m|[m * [33m9042962[m Slider completed and indx partialy completed, reminder to start with contact webpage
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [34m|[m * [33m4cdaa6a[m Slider completed and indx partialy completed, reminder to start with contact webpage
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [34m|[m[34m/[m  
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m * [33me8a7aba[m Slider added
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m[36m/[m  
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m * [33m290d490[m Hero added to index webpage
+[1;35m|[m [1;36m|[m [1;34m|[m [1;32m|[m[1;32m/[m  
+[1;35m|[m [1;36m|[m [1;34m|[m * [33m681e11a[m little changes
+[1;35m|[m [1;36m|[m [1;34m|[m * [33me6b64a7[m Footer is complete and added to all webpages
+[1;35m|[m [1;36m|[m [1;34m|[m * [33m9f1313e[m Footer added, background color and titles name changed
+[1;35m|[m [1;36m|[m [1;34m|[m[1;34m/[m  
+[1;35m|[m [1;36m|[m * [33m681e067[m header is on each webpage
+[1;35m|[m [1;36m|[m[1;36m/[m  
+[1;35m|[m * [33m587fc26[m Header almost finished, with functionality and css linked
+[1;35m|[m * [33ma462b46[m CSS file not found working n it
+[1;35m|[m * [33mb18984d[m the app is rendering the templates yet
+[1;35m|[m * [33m6e13e23[m Views added
+[1;35m|[m[1;35m/[m  
+* [33m848af7c[m[33m ([m[1;32mmain[m[33m)[m Django installation done server still running
+* [33m05839a3[m Description added to readme file
+* [33mfead5ed[m Description added to readme file
+* [33m5118a76[m Description added
+* [33m4967df1[m Update README.md
+* [33maefebb9[m Initial commit
+* [33me77129b[m[33m ([m[1;31morigin/master[m[33m)[m first commit
