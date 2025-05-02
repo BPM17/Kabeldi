@@ -316,7 +316,7 @@ a{
 
 .slider-frame{
     width: 100%;
-    margin: 0;
+    margin: 100vh;
     overflow: hidden;
 }
 
