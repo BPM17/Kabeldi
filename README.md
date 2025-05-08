@@ -58,17 +58,23 @@ Each page will be composed by:
 
 - This is the homepage
 ![This is the homepage](/Kabeldi/kabeldi_app/static/git/1.png)
+
 - This is the second part of the homepage
 ![This is the second part of the homepage](/Kabeldi/kabeldi_app/static/git/8.png)
+
 - This is the development webpage
 ![This is the development webpage](/Kabeldi/kabeldi_app/static/git/7.png)
+
 - This is the second part of development webpage
 ![This is the second part of development webpage](/Kabeldi/kabeldi_app/static/git/6.png)
 - This is the infrastructure webpage
 ![This is the infrastructure webpage](/Kabeldi/kabeldi_app/static/git/5.png)
+
 - This is the contact wbpage completly useful, after clicking submit button it make a register into the DB
 ![This is the contact wbpage completly useful, after clicking submit button it make a register into the DB](/Kabeldi/kabeldi_app/static/git/4.png)
+
 - This is how the homepage looks like with different screen dimensions
 ![This is how the homepage looks like with different screen dimensions](/Kabeldi/kabeldi_app/static/git/2.png)
+
 - This is how the menu looks like with a diferent screen dimensions
 ![This is how the menu looks like with a diferent screen dimensions](/Kabeldi/kabeldi_app/static/git/3.png)
