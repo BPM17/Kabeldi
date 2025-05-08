@@ -52,11 +52,12 @@ Each page will be composed by:
 - --terciario:#0d1b2a;
 - --cuarto:#a6b4c7;
 
-![](/Kabeldi/kabeldi_app/static/git/1.png)
-![](/Kabeldi/kabeldi_app/static/git/2.png)
-![](/Kabeldi/kabeldi_app/static/git/3.png)
-![](/Kabeldi/kabeldi_app/static/git/4.png)
-![](/Kabeldi/kabeldi_app/static/git/5.png)
-![](/Kabeldi/kabeldi_app/static/git/6.png)
-![](/Kabeldi/kabeldi_app/static/git/7.png)
-![](/Kabeldi/kabeldi_app/static/git/8.png)
+### Website images:
+![This is the homepage](/Kabeldi/kabeldi_app/static/git/1.png)
+![This is the second part of the homepage ](/Kabeldi/kabeldi_app/static/git/8.png)
+![This is the development webpage](/Kabeldi/kabeldi_app/static/git/7.png)
+![This is the second part of development webpage](/Kabeldi/kabeldi_app/static/git/6.png)
+![This is the infrastructure webpage](/Kabeldi/kabeldi_app/static/git/5.png)
+![This is the contact wbpage completly usefule, after clicking submit button it make a register into the DB](/Kabeldi/kabeldi_app/static/git/4.png)
+![This is how the homepage looks like with different screen dimensions](/Kabeldi/kabeldi_app/static/git/2.png)
+![This is how the menu looks like with a diferent screen dimensions](/Kabeldi/kabeldi_app/static/git/3.png)
