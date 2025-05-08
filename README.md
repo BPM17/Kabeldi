@@ -52,5 +52,11 @@ Each page will be composed by:
 - --terciario:#0d1b2a;
 - --cuarto:#a6b4c7;
 
-### Todo
-- Investigate about how do pop ups works using Django.
+![][/Kabeldi/kabeldi_app/static/git/1.png]
+![][/Kabeldi/kabeldi_app/static/git/2.png]
+![][/Kabeldi/kabeldi_app/static/git/3.png]
+![][/Kabeldi/kabeldi_app/static/git/4.png]
+![][/Kabeldi/kabeldi_app/static/git/5.png]
+![][/Kabeldi/kabeldi_app/static/git/6.png]
+![][/Kabeldi/kabeldi_app/static/git/7.png]
+![][/Kabeldi/kabeldi_app/static/git/8.png]
